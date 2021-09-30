@@ -8,5 +8,7 @@ El sistema usará los [datos de consumo del vehículo del usuario](https://www.d
 ## Descripción :memo:
 Repositorio para proyecto de la asignatura Infraestructura Virtual de la UGR.
 
-## Issues :pushpin:
-Puedes acceder a las issues del proyecto desde [aquí](https://github.com/vlljuan99/gasolinapp/issues)
+## Documentación :open_file_folder:
+Puedes acceder a la documentación del proyecto desde [aquí](https://github.com/vlljuan99/gasolinapp/tree/Objetivo-1/docs)
+  * El [user journey](https://github.com/vlljuan99/gasolinapp/blob/Objetivo-1/docs/user_journey.md) explica cómo debe usarse la aplicación final y cómo debe funcionar idóneamente.
+  * Los [issues](https://github.com/vlljuan99/gasolinapp/blob/Objetivo-1/docs/ISSUES.md) del proyecto explican las HU necesarias para entender a los usuarios de la app.
