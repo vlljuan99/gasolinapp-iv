@@ -10,10 +10,11 @@ El desarrollo de la aplicación se dividirá en una serie de Milestones que tend
 
 | Orden           | Milestone                                           | Objetivo                                                              | Estado        |
 | ----------------|---------------------------------------------------- | --------------------------------------------------------------------- | ------------- |
-| 1º | [Módulo de obtención y guardado de datos de vehículo](https://github.com/vlljuan99/gasolinapp/milestone/2) | Primer módulo de la aplicación. Mediante datos del vehículo del usuario devolverá los consumos del mismo. | No empezado   |
-| 2º | [Función de geolocalización del usuario](https://github.com/vlljuan99/gasolinapp/milestone/4) | Función que permita calcular la geolocalización del usuario. | No empezado   |
-| 3º | [Módulo de obtención de datos de gasolineras](https://github.com/vlljuan99/gasolinapp/milestone/1) | Función que nos permita saber los precios de las gasolineras a un cierto rango de distancia. | No empezado   |
-| 4º | [Función de cálculo de la gasolinera más óptima](https://github.com/vlljuan99/gasolinapp/milestone/3) | Función que nos permita escoger la gasolinera más óptima en función de ciertos parámetros | No empezado   |
+| 1º | [Diseño de las clases principales](https://github.com/vlljuan99/gasolinapp/milestone/5) | Primer acercamiento. Desarrollo de las dos clases necesarias para guardar los datos, clase Gasolinera y clase Vehículo. | No empezado   |
+| 2º | [Módulo de obtención y guardado de datos de vehículo](https://github.com/vlljuan99/gasolinapp/milestone/2) | Primer módulo de la aplicación. Mediante datos del vehículo del usuario devolverá los consumos del mismo. | No empezado   |
+| 3º | [Función de geolocalización del usuario](https://github.com/vlljuan99/gasolinapp/milestone/4) | Función que permita calcular la geolocalización del usuario. | No empezado   |
+| 4º | [Módulo de obtención de datos de gasolineras](https://github.com/vlljuan99/gasolinapp/milestone/1) | Función que nos permita saber los precios de las gasolineras a un cierto rango de distancia. | No empezado   |
+| 5º | [Función de cálculo de la gasolinera más óptima](https://github.com/vlljuan99/gasolinapp/milestone/3) | Función que nos permita escoger la gasolinera más óptima en función de ciertos parámetros | No empezado   |
 
 # Historias de usuario
 
