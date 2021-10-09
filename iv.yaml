@@ -1,0 +1,9 @@
+lenguaje: ruby
+entidad: src/Consumo.rb
+entidad: src/Gasolinera.rb
+entidad: src/Localizacion.rb
+entidad: src/Procedencia_dato.rb
+entidad: src/Tipo_combustible.rb
+entidad: src/Tipo_servicio.rb
+entidad: src/Tipo_venta.rb
+entidad: src/Vehiculo.rb
