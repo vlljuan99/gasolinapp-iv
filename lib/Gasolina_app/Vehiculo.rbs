@@ -1,7 +1,6 @@
 #encoding:utf-8
 
 require 'date'
-require 'Consumo'
 
 module Gasolina_app
     class Vehiculo 
@@ -15,24 +14,13 @@ module Gasolina_app
         attr_reader consumo_carretera: Float
         attr_reader consumo_mixto: Float
 
-        def initialize (marca: String, matricula: String, motorizacion: String, km_recorridos: Float, 
+        def initialize: (marca: String, matricula: String, motorizacion: String, km_recorridos: Float, 
                         fecha_matricula: Date = nil, modelo: String = nil) -> void
-            @matricula = matricula
-            @marca = marca
-            @motorizacion = motorizacion
-            @km_recorridos = km_recorridos
-            @fecha_matricula = fecha_matricula unless fecha_matricula.nil?
-            @modelo = modelo unless modelo.nil?
-        end
 
         # Calcular fecha de matrícula a partir de la matrícula
-        def calcular_fecha_matricula -> void
-            # TODO
-        end
+        def calcular_fecha_matricula: () -> void
 
         # Calcular modelo del vehículo a partir de la matrícula
-        def calcular_modelo -> void
-            # TODO
-        end
+        def calcular_modelo: () -> void
     end
 end

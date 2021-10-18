@@ -1,7 +1,7 @@
 #encoding:utf-8
 
 require 'date'
-require 'Localizacion'
+require 'Localizacion.rbs'
 
 module Gasolina_app
     class Gasolinera
@@ -14,9 +14,7 @@ module Gasolina_app
         attr_reader tipo_servicio: String
         attr_reader combustible: Array[String]
 
-        def initialize (rotulo: Hash, horario: Time, localizacion: Localizacion, ultimo_dato: Date, procedencia_dato: String, 
+        def initialize: (rotulo: Hash, horario: Time, localizacion: Localizacion, ultimo_dato: Date, procedencia_dato: String, 
                         tipo_venta: String, tipo_servicio: String, combustible: Array[String]) -> void
-            # TODO
-        end
     end
 end

@@ -10,9 +10,7 @@ module Gasolina_app
         attr_reader longitud: String
         attr_reader latitud: String
 
-        def initialize (provincia: String, municipio: String, localidad: String, cod_postal: Integer, 
+        def initialize: (provincia: String, municipio: String, localidad: String, cod_postal: Integer, 
                         direccion: String, longitud: String, latitud: String) -> void
-            # TODO
-        end
     end 
 end
