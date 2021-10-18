@@ -1,2 +1,2 @@
 lenguaje: ruby
-entidad: src/Gasolinera.rb
+entidad: lib/Gasolina_app/Gasolinera.rb
