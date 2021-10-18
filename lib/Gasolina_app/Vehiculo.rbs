@@ -1,0 +1,38 @@
+#encoding:utf-8
+
+require 'date'
+require 'Consumo'
+
+module Gasolina_app
+    class Vehiculo 
+        attr_reader marca: String
+        attr_reader matricula: String
+        attr_reader fecha_matricula: Date
+        attr_reader modelo: String
+        attr_reader motorizacion: String
+        attr_reader km_recorridos: Float
+        attr_reader consumo_ciudad: Float
+        attr_reader consumo_carretera: Float
+        attr_reader consumo_mixto: Float
+
+        def initialize (marca: String, matricula: String, motorizacion: String, km_recorridos: Float, 
+                        fecha_matricula: Date = nil, modelo: String = nil) -> void
+            @matricula = matricula
+            @marca = marca
+            @motorizacion = motorizacion
+            @km_recorridos = km_recorridos
+            @fecha_matricula = fecha_matricula unless fecha_matricula.nil?
+            @modelo = modelo unless modelo.nil?
+        end
+
+        # Calcular fecha de matrícula a partir de la matrícula
+        def calcular_fecha_matricula -> void
+            # TODO
+        end
+
+        # Calcular modelo del vehículo a partir de la matrícula
+        def calcular_modelo -> void
+            # TODO
+        end
+    end
+end
