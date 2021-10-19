@@ -1,9 +1,6 @@
 #encoding:utf-8
 
-require 'date'
-require 'Localizacion.rbs'
-
-module Gasolina_app
+module GasolinaApp
     class Gasolinera
         attr_reader rotulo: Hash
         attr_reader horario: Time

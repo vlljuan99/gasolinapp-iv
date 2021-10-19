@@ -2,7 +2,7 @@
 
 require 'date'
 
-module Gasolina_app
+module GasolinaApp
     class Vehiculo 
         attr_reader marca: String
         attr_reader matricula: String

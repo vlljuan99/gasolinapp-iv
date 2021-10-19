@@ -1,6 +1,6 @@
 #encoding:utf-8
 
-module Gasolina_app
+module GasolinaApp
     class Localizacion
         attr_reader provincia: String
         attr_reader municipio: String
