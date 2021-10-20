@@ -2,16 +2,16 @@
 
 module GasolinaApp
     class Gasolinera
-        attr_reader rotulo: Hash
+        attr_reader rotulo: String
         attr_reader horario: Time
         attr_reader localizacion: Localizacion
         attr_reader ultimo_dato: Date
         attr_reader procedencia_dato: String
         attr_reader tipo_venta: String
         attr_reader tipo_servicio: String
-        attr_reader combustible: Array[String]
+        attr_reader combustible: Hash
 
-        def initialize: (rotulo: Hash, horario: Time, localizacion: Localizacion, ultimo_dato: Date, procedencia_dato: String, 
-                        tipo_venta: String, tipo_servicio: String, combustible: Array[String]) -> void
+        def initialize: (rotulo: String, horario: Time, localizacion: Localizacion, ultimo_dato: Date, procedencia_dato: String, 
+                        tipo_venta: String, tipo_servicio: String, combustible: Hash) -> void
     end
 end
