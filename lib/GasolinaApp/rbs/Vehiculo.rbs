@@ -9,13 +9,11 @@ module GasolinaApp
         attr_reader fecha_matricula: Date
         attr_reader modelo: String
         attr_reader motorizacion: String
-        attr_reader km_recorridos: Float
         attr_reader consumo_ciudad: Float
         attr_reader consumo_carretera: Float
         attr_reader consumo_mixto: Float
 
-        def initialize: (marca: String, matricula: String, motorizacion: String, km_recorridos: Float, 
-                        fecha_matricula: Date = nil, modelo: String = nil) -> void
+        def initialize: (marca: String, matricula: String, motorizacion: String) -> void
 
         # Calcular fecha de matrícula a partir de la matrícula
         def calcular_fecha_matricula: () -> void
