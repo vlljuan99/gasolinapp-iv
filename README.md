@@ -30,11 +30,11 @@ Usaremos rake para instalar el bundler que descargará las dependencias, con la 
 ```shell
 rake installbundler
 ```
-El bundler instalará todas las dependencias necesarias para el proyecto, especificas en Gemfile, ejecutaremos la orden con el siguiente comando:
+El bundler instalará todas las dependencias necesarias para el proyecto, especificas en [Gemfile](https://github.com/vlljuan99/gasolinapp/blob/Objetivo-3/Gemfile), ejecutaremos la orden con el siguiente comando:
 ```shell
 rake installdeps
 ```
-Tras este comando se creará automáticamente Gemfile.lock, donde se registran automáticamente las versiones de cada dependencia del proyecto.
+Tras este comando se creará automáticamente [Gemfile.lock](https://github.com/vlljuan99/gasolinapp/blob/Objetivo-3/Gemfile.lock), donde se registran automáticamente las versiones de cada dependencia del proyecto.
 (OJO: ⚠️ ¡no se debe modificar, es automático!)
 
 Para listar todas las órdenes disponibles usaremos:
