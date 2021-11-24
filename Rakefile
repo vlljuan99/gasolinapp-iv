@@ -10,3 +10,14 @@ task :installdeps do
     puts "Pedirá permisos de superusuario."
     exec "bundle install"
 end
+
+desc "Task para ejecutar tests al proyecto."
+task :test do
+    puts "Realizando tests..."
+end
+
+desc "Task para comprobación de sintaxis de Ruby."
+task :check do
+    puts "Comprobando sintaxis..."
+    exec "ruby -c ./lib/GasolinaApp/*"
+end
