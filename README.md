@@ -34,10 +34,23 @@ El bundler instalará todas las dependencias necesarias para el proyecto, especi
 ```shell
 rake installdeps
 ```
+
 Tras este comando se creará automáticamente [Gemfile.lock](https://github.com/vlljuan99/gasolinapp/blob/Objetivo-3/Gemfile.lock), donde se registran automáticamente las versiones de cada dependencia del proyecto.
 (OJO: ⚠️ ¡no se debe modificar, es automático!)
 
 Para listar todas las órdenes disponibles usaremos:
 ```shell
 rake --tasks
+```
+
+### Realización de tests
+Los tests los ejecutaremos con el siguiente comando:
+```shell
+rake test
+```
+
+### Comprobación de sintaxis de Ruby
+La sintaxis la comprobaremos mediante la orden:
+```shell
+rake check
 ```
