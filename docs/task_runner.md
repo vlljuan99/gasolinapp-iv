@@ -1,7 +1,21 @@
 # Task runner
 
 ## ¿Qué es un task runner y para qué vamos a usarlo?
+El término task runner es un programa encargado de automatizar los procesos informáticos. Si dicho programa no se utiliza éstos deben ejecutarse manualmente, por lo que se considera de importante valor en tareas repetitivas. Al simplificar su flujo de trabajo, estas tareas requieren menos tiempo para realizarse, por lo que se tiene más tiempo para dedicarlo a otras tareas. Los programadores siempre podrán controlar las fases de trabajo que quieren automatizar y no automatizar gracias a un task runner.
 
+# Task runners disponibles para Ruby 
+Podemos encontrar distintos Task Runner para Ruby, entre ellos:
+* Rake:
+  * Es el task runner más usado en Ruby.
+  * Es muy similar al archiconocido UNIX make tool, lo que lo hace muy fácil de aprender.
+  * [Repositorio de Rake](https://github.com/ruby/rake) 
+  * [Más información oficial](https://ruby.github.io/rake/)
+* Thor:
+  * Thor es un conjunto de herramientas para crear potentes interfaces de línea de comandos. Se utiliza en Bundler, Vagrant, Rails y otros.
+  * [Página oficial de Thor](http://whatisthor.com/)
+* Bolt:
+  * Bolt es un task runner para Ruby que destaca por ser rápido y eficiente. En palabras de su desarrollador principal: "A world-record-fast task runner based on Ruby processes".
+  * [Repositorio de Bolt](https://github.com/rubencaro/bolt) 
 ## Task runner elegido para este proyecto
 ### Rake
 Rake es una herramienta que podemos utilizar con proyectos Ruby, básicamente es un manejador de tareas muy popular para este lenguaje.
