@@ -18,7 +18,7 @@ Puedes acceder a la documentación del proyecto desde [aquí](https://github.com
 La aplicación está desarrollada en Ruby, por ello deberemos tener dicho lenguaje instalado, esto lo haremos mediante las instrucciones de la [página oficial](https://www.ruby-lang.org/es/documentation/installation/).
 A modo de ejemplo, para Ubuntu u otras distribuciones Linux:
 ```shell
-sudo snap install ruby --classic
+snap install ruby --classic
 ```
 Debemos comprobar si tenemos rake instalado, ya que es necesario para ejecutar los comandos que instalarán todas las dependencias necesarias para el proyecto.
 Para Ubuntu u otras distribuciones Linux, se comprueba así:
