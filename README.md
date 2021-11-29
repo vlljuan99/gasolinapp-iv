@@ -42,6 +42,7 @@ Para listar todas las órdenes disponibles usaremos:
 ```shell
 rake --tasks
 ```
+-----------------------------------------------------------------------------
 
 ### Realización de tests
 Los tests los ejecutaremos con el siguiente comando:
