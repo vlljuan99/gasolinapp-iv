@@ -15,12 +15,19 @@ Puedes acceder a la documentación del proyecto desde [aquí](https://github.com
 
 ## Automatización de operaciones 🤖
 ### Primera instalación
-La aplicación está desarrollada en Ruby, por ello deberemos tener dicho lenguaje instalado, esto lo haremos mediante las instrucciones de la [página oficial](https://www.ruby-lang.org/es/documentation/installation/).
-A modo de ejemplo, para Ubuntu u otras distribuciones Linux:
+La aplicación está desarrollada en Ruby, por ello deberemos tener dicho lenguaje instalado, puedes encontrar información sobre este lenguaje en la [página oficial](https://www.ruby-lang.org/es/documentation/) del mismo.
+
+Para instalar Ruby vamos a utilizar RVM (Ruby Version Manager), una plataforma de software diseñada para administrar distintas instalaciones de Ruby en el mismo dispositivo.
+Seguiremos las instrucciones de [la página oficial de RVM](https://rvm.io/rvm/install) para completar dicha instalación.
+
+Este proyecto se desarrolla en Ubuntu 20.04, para encontrar instrucciones de instalación más específicas podemos utilizar el [repositorio de RVM para Ubuntu](https://github.com/rvm/ubuntu_rvm)
+
+Comprobamos si tenemos todo instalado correctamente:
 ```shell
-snap install ruby --classic
+ruby -v
+gem -v
 ```
-Debemos comprobar si tenemos rake instalado, ya que es necesario para ejecutar los comandos que instalarán todas las dependencias necesarias para el proyecto.
+También debemos comprobar si tenemos rake instalado, ya que es necesario para ejecutar los comandos que instalarán todas las dependencias necesarias para el proyecto.
 Para Ubuntu u otras distribuciones Linux, se comprueba así:
 ```shell
 rake --version
