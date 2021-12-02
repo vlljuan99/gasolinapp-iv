@@ -17,21 +17,24 @@ Podemos encontrar distintos Task Runner para Ruby, entre ellos:
   * Bolt es un task runner para Ruby que destaca por ser rápido y eficiente. En palabras de su desarrollador principal: "A world-record-fast task runner based on Ruby processes".
   * [Repositorio de Bolt](https://github.com/rubencaro/bolt) 
 ## Task runner elegido para este proyecto
-### Rake
+## Rake
 Rake es una herramienta que podemos utilizar con proyectos Ruby, básicamente es un manejador de tareas muy popular para este lenguaje.
 Nos permite utilizar código ruby para definir "tareas" que pueden ejecutarse en la línea de comandos.
-Rake puede descargarse e incluirse en proyectos ruby como una gema ruby.
 
 Una vez instalado, se definen las tareas en un archivo llamado "Rakefile" que añadiremos a nuestro proyecto.
 (A modo de aclaración adicional, es el análogo a la orden MAKE en UNIX, con sus Makefile...)
 
-### ¿Por qué usaremos Rake?
-1. Los Rakefiles están completamente definidos en la sintaxis estándar de Ruby. Eso significa que no hay archivos XML que editar, ni tampoco hay sintaxis "peculiar" de Makefile de la que preocuparse. (Las tabulaciones, por ejemplo)
-2. Se pueden especificar tareas con requisitos previos.
-3. Rake admite patrones de reglas para sintetizar tareas implícitas, lo que nos ahorrará tiempo al aunar varias reglas en una.
-4. Permite ejecución paralela de tareas.
-5. Permite listas de file names para ejecutar las distintas tareas a modo de array, muy bien explicado [aquí](https://stackoverflow.com/questions/14529180/how-to-use-filelists-as-rake-dependencies).
-6. Rake centraliza el acceso a las tasks que hemos desarrollado.
-7. Es el principal manejador de tareas para Ruby, además de estar muy integrado para ç RubyOnRails (RoR), un framework que ha sido usado para páginas tan populares como GitHub.
-(Además de ser uno de los más demandados laboralmente.)
+Es el gestor de tareas más utilizado para Ruby y como tal, goza de una comunidad viva y soporte muy completos para cualquier problema que podamos tener.
+
+### Características de Rake para que sea nuestro task runner elegido:
+1. Rake centraliza el acceso a las tasks que hemos desarrollado.
+2. Las tareas de Rake pueden comunicarse entre sí.
+3. Los Rakefiles están completamente definidos en la sintaxis estándar de Ruby. Eso significa que no hay archivos XML que editar, ni tampoco hay sintaxis "peculiar" de los Makefile de la que preocuparse. (Las tabulaciones, por ejemplo).
+4. Rake puede descargarse e incluirse en proyectos ruby como una gema ruby.
+5. Se pueden especificar tareas con requisitos previos.
+6. Rake admite patrones de reglas para sintetizar tareas implícitas, lo que nos ahorrará tiempo al aunar varias reglas en una.
+7. Permite ejecución paralela de tareas.
+8. Permite listas de file names para ejecutar las distintas tareas a modo de array, muy bien explicado [aquí](https://stackoverflow.com/questions/14529180/how-to-use-filelists-as-rake-dependencies).
+9. Rake centraliza el acceso a las tasks que hemos desarrollado.
+10. Es el principal manejador de tareas para Ruby, además de estar muy integrado para RubyOnRails (RoR), un framework que ha sido usado para páginas tan populares como GitHub. (Además de ser uno de los más demandados laboralmente.)
 
