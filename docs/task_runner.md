@@ -16,7 +16,7 @@ Podemos encontrar distintos Task Runner para Ruby, entre ellos:
 * Bolt:
   * Bolt es un task runner para Ruby que destaca por ser rápido y eficiente. En palabras de su desarrollador principal: "A world-record-fast task runner based on Ruby processes".
   * [Repositorio de Bolt](https://github.com/rubencaro/bolt) 
-## Task runner elegido para este proyecto: RAKE
+## Task runner elegido para este proyecto: Rake
 Rake es una herramienta que podemos utilizar con proyectos Ruby, básicamente es un manejador de tareas muy popular para este lenguaje.
 Nos permite utilizar código ruby para definir "tareas" que pueden ejecutarse en la línea de comandos.
 
