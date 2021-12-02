@@ -22,6 +22,9 @@ Seguiremos las instrucciones de [la página oficial de RVM](https://rvm.io/rvm/i
 
 Este proyecto se desarrolla en Ubuntu 20.04, para encontrar instrucciones de instalación más específicas podemos utilizar el [repositorio de RVM para Ubuntu](https://github.com/rvm/ubuntu_rvm)
 
+Una vez instalamos Ruby con RVM mediante el comando ```rvm install ruby``` nos saldrá una serie de mensajes de información y el siguiente mensaje: ```Ruby was built without documentation, to build it run: rvm docs generate-ri```.
+Recomendamos usar este comando para instalar la documentación de Ruby en nuestro ordenador.
+
 Comprobamos si tenemos todo instalado correctamente:
 ```shell
 ruby -v
