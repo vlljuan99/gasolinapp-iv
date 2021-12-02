@@ -26,7 +26,12 @@ Una vez instalado, se definen las tareas en un archivo llamado "Rakefile" que a�
 (A modo de aclaración adicional, es el análogo a la orden MAKE en UNIX, con sus Makefile...)
 
 ### ¿Por qué usaremos Rake?
-Rake centraliza el acceso a las tasks que hemos desarrollado.
-Es el principal manejador de tareas para Ruby, además de estar muy integrado para RubyOnRails (RoR), un framework que ha sido usado para páginas tan populares como GitHub.
+1. Los Rakefiles están completamente definidos en la sintaxis estándar de Ruby. Eso significa que no hay archivos XML que editar, ni tampoco hay sintaxis "peculiar" de Makefile de la que preocuparse. (Las tabulaciones, por ejemplo)
+2. Se pueden especificar tareas con requisitos previos.
+3. Rake admite patrones de reglas para sintetizar tareas implícitas, lo que nos ahorrará tiempo al aunar varias reglas en una.
+4. Permite ejecución paralela de tareas.
+5. Permite listas de file names para ejecutar las distintas tareas a modo de array, muy bien explicado [aquí](https://stackoverflow.com/questions/14529180/how-to-use-filelists-as-rake-dependencies).
+6. Rake centraliza el acceso a las tasks que hemos desarrollado.
+7. Es el principal manejador de tareas para Ruby, además de estar muy integrado para ç RubyOnRails (RoR), un framework que ha sido usado para páginas tan populares como GitHub.
 (Además de ser uno de los más demandados laboralmente.)
 
