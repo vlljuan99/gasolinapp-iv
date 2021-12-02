@@ -35,12 +35,19 @@ Para Ubuntu u otras distribuciones Linux, se comprueba así:
 ```shell
 rake --version
 ```
-En este paso tendremos ruby, rake y gem instalados.
-Usaremos rake para instalar el bundler que descargará las dependencias, con la orden:
+
+Si no lo tenemos instalado, se instala mediante el comando:
 ```shell
-rake installbundler
+gem install bundler
 ```
-El bundler instalará todas las dependencias necesarias para el proyecto, especificas en [Gemfile](https://github.com/vlljuan99/gasolinapp/blob/Objetivo-3/Gemfile), ejecutaremos la orden con el siguiente comando:
+Esta orden instalará el bundler que descargará las dependencias, entre las que se encuentra la ya citada Rake.
+
+Podemos comprobar su correcta instalación mediante:
+```shell
+rake --version
+```
+
+Dicho bundler instalará todas las dependencias necesarias para el proyecto, especificas en [Gemfile](https://github.com/vlljuan99/gasolinapp/blob/Objetivo-3/Gemfile), ejecutaremos la orden con el siguiente comando:
 ```shell
 rake installdeps
 ```
