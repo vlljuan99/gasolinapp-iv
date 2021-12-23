@@ -72,3 +72,16 @@ La sintaxis la comprobaremos mediante la orden:
 ```shell
 rake check
 ```
+
+-----------------------------------------------------------------------------
+
+### Realización de tests con Rspec
+Para realizar tests con Rspec, previamente habremos instalado la gema de Rspec mediante el comando:
+```shell
+bundle install
+```
+
+Esto nos instalará Rspec. Comprobaremos si está bien instalado verificando su versión instalada:
+```shell
+rspec --version
+```
