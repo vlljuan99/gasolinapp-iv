@@ -76,12 +76,28 @@ rake check
 -----------------------------------------------------------------------------
 
 ### Realización de tests con Rspec
-Para realizar tests con Rspec, previamente habremos instalado la gema de Rspec mediante el comando:
+Para realizar tests con Rspec, previamente habremos instalado la gema de Rspec mediante el comando ya citado:
 ```shell
-bundle install
+rake installdeps
 ```
 
 Esto nos instalará Rspec. Comprobaremos si está bien instalado verificando su versión instalada:
 ```shell
 rspec --version
+```
+
+Una vez instalado ejecutaremos el siguiente comando para crear el directorio /bin en nuestro directorio principal. Seguidamente se creará el archivo ejecutable rspec, que nos permitirá poder acceder a la herramienta de test mediante este último.
+```shell
+bundle binstubs rspec-core
+```
+
+Para iniciar por primera vez este ejecutable, usaremos:
+```shell
+bin/rspec --init
+```
+Con esta orden hemos generado el directorio /spec con el archivo spec_helper.rb que contendrá la configuración de Rspec y ejemplos sobre cómo utilizar este _testing tool_.
+
+Una vez esté todo configurado, los tests se ejecutarán como hasta ahora, con el comando ya citado:
+```shell
+rake test
 ```
