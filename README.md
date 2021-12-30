@@ -76,6 +76,7 @@ rake check
 -----------------------------------------------------------------------------
 
 ### Realización de tests con Rspec
+Información sobre Rspec [aquí](https://github.com/vlljuan99/gasolinapp/blob/Objetivo-4/docs/test_runner.md).
 Para realizar tests con Rspec, previamente habremos instalado la gema de Rspec mediante el comando ya citado:
 ```shell
 rake installdeps
