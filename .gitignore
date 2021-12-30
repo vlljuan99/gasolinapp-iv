@@ -9,6 +9,8 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
+spec/spec_helper.rb
+bin/
 
 # Used by dotenv library to load environment variables.
 # .env
