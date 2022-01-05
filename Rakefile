@@ -12,5 +12,5 @@ end
 desc "Task para comprobación de sintaxis de Ruby."
 task :check do
     puts "Comprobando sintaxis..."
-    exec "ruby -c ./lib/GasolinaApp/*"
+    exec "ruby -c ./lib/*"
 end
