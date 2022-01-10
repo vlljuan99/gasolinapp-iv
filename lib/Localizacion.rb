@@ -8,7 +8,7 @@ module GasolinaApp
         def initialize ()
         end
 
-        def localidad()
+        def cp()
             handler = IPinfo::create()
             data = handler.details()
             return data.postal
@@ -18,6 +18,18 @@ module GasolinaApp
             handler = IPinfo::create()
             data = handler.details()
             return data.ip
+        end
+
+        def localidad()
+            handler = IPinfo::create()
+            data = handler.details()
+            return data.city
+        end
+
+        def posicion()
+            handler = IPinfo::create()
+            data = handler.details()
+            return data.loc
         end
 
     end
