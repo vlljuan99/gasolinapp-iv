@@ -6,11 +6,11 @@ end
 
 desc "Task para ejecutar tests al proyecto."
 task :test do
-    puts "Realizando tests... (POR IMPLEMENTAR)"
+    exec "bin/rspec"
 end
 
 desc "Task para comprobación de sintaxis de Ruby."
 task :check do
     puts "Comprobando sintaxis..."
-    exec "ruby -c ./lib/GasolinaApp/*"
+    exec "ruby -c ./lib/*"
 end

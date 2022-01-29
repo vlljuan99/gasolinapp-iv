@@ -3,3 +3,4 @@ entidad: lib/GasolinaApp/Gasolinera.rb
 automatizar:
   fichero: Rakefile
   orden: rake
+test: spec/Geoportal_spec.rb
